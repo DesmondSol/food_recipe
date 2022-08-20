@@ -1,4 +1,5 @@
 <template>
+
     <div class="flex justify-center items-center mt-52">
         <div class="w-full max-w-xs">
 

@@ -8,7 +8,13 @@ import Components from 'unplugin-vue-components/vite'
 export default defineConfig({
   plugins: [
     vue(),
-    Pages(),
+    Pages({
+      dirs: [
+        { dir: 'src', baseRoute: '' },
+        { dir: 'src/pages', baseRoute: 'pages' },
+
+      ],
+    }),
     Layouts(),
     Components(),
   ]
